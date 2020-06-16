@@ -26,15 +26,15 @@ def_calories=Maintian_calories-500;
 protine = 0.73*weight;
 fat=(0.2*def_calories)/9;
 carbs= (def_calories-(protine*4)-(fat*9))/4;
-fprintf(' Your macros are :\n\n Protine = %0.1f\n Fat = %0.1f\n Carbs = %0.1f\n',protine,fat,carbs )
+fprintf(' Your micros are :\n\n Protine = %0.1f\n Fat = %0.1f\n Carbs = %0.1f\n',protine,fat,carbs )
  else
      Surpluse_calories=2665+500;
 
-protine = 1.2*weight;
+protine = 0.8*weight;
 fat=(0.2*Surpluse_calories)/9;
 carbs= (Surpluse_calories-(protine*4)-(fat*9))/4;
 
-fprintf(' Your macros are :\n\n Protine = %0.1f\n Fat = %0.1f\n Carbs = %0.1f\n',protine,fat,carbs )
+fprintf(' Your micros are :\n\n Protine = %0.1f\n Fat = %0.1f\n Carbs = %0.1f\n',protine,fat,carbs )
  end
 
  total_calories=(protine+carbs)*4+fat*9;
